@@ -1,0 +1,50 @@
+/* App.css */
+.bg-light-blue {
+  background-color: #3bc4f1;
+}
+
+.row {
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+
+.navbar {
+  border-bottom: 1px solid #ccc;
+}
+
+input[type="number"] {
+  margin-right: 5px;
+}
+
+.product-row {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  margin-bottom: 10px;
+}
+
+.product-name {
+  margin-left: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  flex: 1; /* Ensures it takes up the space needed */
+}
+
+.product-image {
+  height: 150px;
+  width: 150px;
+  flex: 0; /* Ensures image does not grow and stays at its original width */
+}
+
+.quantity-input-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.quantity-input {
+  width: 3em;
+}
+
+.fa-shopping-cart {
+  margin-right: 1em;
+}
