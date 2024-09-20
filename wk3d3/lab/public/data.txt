@@ -1,0 +1,22 @@
+Products:
+
+#1
+image: './products/camera.jpg'
+desc: 'DSLR Camera'
+value: 1000
+                
+#2
+image: './products/keys.jpg'
+desc: 'House Keys'
+value: 1
+
+#3
+image: './products/watch.jpg'
+desc: 'Breitling Watch'
+value: 1000
+
+
+#4
+image: './products/waterbottle.jpg'
+desc: 'Colorful Waterbottle'
+value: 1
